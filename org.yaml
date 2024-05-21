@@ -1,0 +1,59 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: uparulekar
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ucparule
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Mike_Wilson
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: desanch
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: aggawwav
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: philippe_mulet
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: theMcQ
+spec:
+  memberOf: [doibs]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: doibs
+spec:
+  type: team
+  children: []
