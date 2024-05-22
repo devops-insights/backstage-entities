@@ -59,7 +59,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: neal-patel
+  name: nealpatel645
 spec:
   memberOf: [doibs]
 ---
