@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: DevOps Insights Squad
+  name: DevOps-Insights-Squad
 spec:
   type: service
   owner: doibs
