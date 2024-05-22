@@ -49,6 +49,20 @@ metadata:
 spec:
   memberOf: [doibs]
 ---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: neal.patel
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: neal-patel
+spec:
+  memberOf: [doibs]
+---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
