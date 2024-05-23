@@ -3,6 +3,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: guest
+spec:
+  memberOf: [doibs]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: uparulekar
 spec:
   memberOf: [doibs]
